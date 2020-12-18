@@ -1,0 +1,18 @@
+Data Types in java
+
+8	-	Primitive Data types
+4 	- 	integer
+			int		-	4 bytes		-(2^31) to (2^31) -1
+			short	-	2 bytes		-(2^15) to (2^15) -1
+			long 	-	8 bytes		-(2^63) to (2^63) -1 
+			byte	-	1 byte		-(2^7) to (2^7) -1
+
+2	-	floating point
+			float	-	4 bytes		precision 6 -7 digits
+			double	-	8 bytes		precision 15 digits
+		
+1	-	character type	
+			char 	-	2 bytes
+			
+1 	-	boolean
+			boolean	-	1 byte		true,false

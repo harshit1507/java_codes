@@ -1,0 +1,28 @@
+When to use BufferedReader and Scanner
+
+Parsing Input
+	Buffered Reader does not parse the input, it means it takes whatever the input user entered.
+	It does not bother whether it is an integer or float or string.
+	We need to explicitly convert according to desired output.
+	It only uses br.readLine();
+	
+	While in case of Scanner Class, it takes different input according data type.
+	Like for integer, it uses sc.nextInt(),
+	For Float, it uses sc.nextFloat(),
+	For String, it uses sc.nextLine(). 
+	
+Thread Safe
+	While multithreading programming, always use Buffered Reader Class
+	
+Buffer Size
+	Buffer size in Buffered Reader class is 8 KB and in Scanner class is 1 KB.
+	So if we need huge or large input, we need to use Buffered Reader class
+	
+Speed
+	Speed of Buffered Reader is better because it does not waste time performing parsing like Scanner.
+	
+Other 
+	We can separate two integers while inputting using space.
+	Space act as a delimiter in Scanner Class.
+	We can change delimiter by useing sc.usedelimiter('*');	now '*' is delimiter.
+	

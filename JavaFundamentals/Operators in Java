@@ -1,0 +1,20 @@
+Operators in Java
+
+Arithmetic Operators		+, -, *, /, %
+Increment/Decrement			++, --
+Relational & boolean		>, >=, <, <=, ==, !=
+Logical Operators			&&, ||
+Bitwise Operator			&, |, <<(left shift), >>(right shift), ~(complement), ^(xor)
+
+		a = 10			00001010
+		b = 5			00000101
+		a&b				00000000
+		a|b				00001111
+		a^b				00001111		(0^0 = 0)
+										(0^1 = 1)
+										(1^0 = 1)
+										(1^1 = 0)
+		~a				11110101
+		~b				11111010
+		a<<2			00101000
+		a>>2			00000010				
